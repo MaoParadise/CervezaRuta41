@@ -15,12 +15,6 @@ export class NavigationComponent implements OnInit {
   ngOnInit() {
   }
 
-  changeControlUser(){
-    if(this.user == 0){
-      this.user = 1;
-    }else if(this.user == 1){
-      this.user = 0;
-    }
-  }
+
 
 }

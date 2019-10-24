@@ -1,0 +1,20 @@
+.logo-setup{
+    text-align: center;
+}
+
+.logo-s{
+    width: 65%;
+}
+
+@media screen and (max-width:640px) {
+    .logo-setup{
+        margin-top: 120px;
+        text-align: center;
+    }
+
+    .logo-s{
+        width: 80%;
+    }
+}
+
+
