@@ -1,0 +1,170 @@
+.bg-light {
+    background-color: rgba(133, 28, 48,0.95) !important;
+}
+
+
+.navbar {
+    font-family: 'Hogfish DEMO', serif; 
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 2rem !important;
+    border-bottom: 4px solid #66a14b;
+    border-top: 2px solid #851c30;
+    backdrop-filter: blur(6px);
+}
+
+small{
+    color: #fff;
+}
+
+
+
+.nav-link{
+    font-size: 1rem !important;
+    color: rgba(255, 255, 255,1) !important;
+    box-shadow: #000 2px;
+}
+
+.bg-primary{
+    background: rgba(255, 255, 255, 0.2) !important;
+    
+}
+
+.network{
+    position: absolute;
+    width: 100%;
+    font-family: 'Hogfish DEMO', serif;
+    padding-left: 20px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    color: #000;   
+}
+
+.network > .fab{
+    margin-right: 15px;
+    margin-left: 15px;
+    font-size: 2.6vh;
+    cursor: pointer;  
+}
+
+.network > .fa-facebook{
+    color: #3b5998;
+}
+
+.network > .fa-instagram{
+    background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.log-here{
+    text-align: center;
+    padding-right: 22px;
+}
+
+.user-here{
+    padding-right: 22px;
+}
+
+.log-btn{
+    cursor: pointer;
+}
+
+
+.logo{
+    position: absolute;
+    top: -35px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 10000;
+    width: 10%;
+}
+
+.nav-41{
+    height: 72px;
+}
+
+
+.lupulo1{
+    position: fixed;
+    width: 5%;
+    z-index: 7009;
+    right: 0;
+    top: 45px;
+}
+
+
+.lupulo2{
+    position: fixed;
+    width: 5%;
+    z-index: 7009;
+    left: 0;
+    transform: scaleX(-1);
+    top: 45px;
+}
+
+
+@media screen and (max-width:768px) {
+    .logo{
+        position: absolute;
+        top: 10px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        z-index: 10000;
+        width: 18%;
+    }
+
+    
+
+    .navbar {
+        font-family: 'Hogfish DEMO', serif;
+        position: absolute;
+        top: 40px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0rem 0rem !important;
+        border-bottom: 4px solid #851c30;
+        border-top: 2px solid #66a14b;
+        backdrop-filter: blur(6px);
+    }
+
+    .lupulo2{
+        position: fixed;
+        width: 18%;
+        z-index: 7009;
+        right: 0;
+        bottom: 0;
+    }
+    
+    
+    .lupulo1{
+        position: fixed;
+        width: 5%;
+        z-index: -2;
+        left: 0;
+        transform: scaleX(-1);
+        bottom: 0;
+    }
+
+  }
+
+@media screen and (max-width:992px) {
+    .navbar-collapse {
+        flex-basis: 100%;
+        flex-grow: 1;
+        align-items: center;
+        background-color: rgba(102, 161, 75, 0.7) !important;
+        margin-top: 25px;
+        padding-left: 20px; 
+        padding-top: 25px; 
+    }
+}
